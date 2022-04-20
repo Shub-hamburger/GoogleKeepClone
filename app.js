@@ -202,12 +202,12 @@ class App {
           <div class="note-text">${note.text}</div>
           <div class="toolbar-container">
             <div class="toolbar">
-              <img class="toolbar-color" data-id=${
+              <i class="material-icons toolbar-color" data-id=${
                 note.id
-              } src="https://icon.now.sh/palette">
-              <img data-id=${
+              }>palette</i>
+              <i class="material-icons toolbar-delete" data-id=${
                 note.id
-              } class="toolbar-delete" src="https://icon.now.sh/delete">
+              }>delete</i>
             </div>
           </div>
         </div>
